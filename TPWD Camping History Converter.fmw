@@ -1,0 +1,2039 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Command line to run this workspace:
+#        "C:\Program Files\FME_2023.1_x64\fme.exe" "F:\Github\Camping\Camping History\TPWD Camping History Converter.fmw"
+#          --FME_LAUNCH_VIEWER_APP "YES"
+#    
+#!   A0_PREVIEW_IMAGE="data:image/png;base64,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"
+#!   ARCGIS_COMPATIBILITY="ARCGIS_AUTO"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="13316.4 1641.3"
+#!   DOC_TOP_LEFT="56.945 -1413.51"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="23619"
+#!   FME_BULK_MODE_THRESHOLD="2000"
+#!   FME_DOCUMENT_GUID="ca20cb9d-39b0-4b09-806c-f9d815d3bf47"
+#!   FME_DOCUMENT_PRIORGUID="e340fa27-7f36-457a-a2c4-03ae8c8d3051,a8b69320-a2d8-4f79-b6bf-1fe8dfda6711,bd983e61-7e77-4cbe-81f4-c9e7a75d7b64,74d846d4-56db-44a8-b78e-08baff0ae886,db86cc9c-c7f8-49e0-9d57-60c536137ea5,6ae144cd-b878-4320-90b9-87b3cf77135d,9654caef-97c2-4ab8-a6aa-6f2fb408cf1a"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_NAMES_ENCODING="UTF-8"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2023.1.0.0 (20230825 - Build 23619 - WIN64)"
+#!   LAST_SAVE_DATE="2023-10-23T08:37:34"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="39"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="NO"
+#!   TITLE=""
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   VIEW_POSITION="5316.41 428.245"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="81"
+#! >
+#! <DATASETS>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <READER_DATASETS>
+#! <DATASET
+#!   NAME="FeatureReader"
+#!   OVERRIDE="--FeatureReaderDataset_FeatureReader"
+#!   DATASET="FeatureReader/TPWD Camping History Extract.txt"
+#! />
+#! </READER_DATASETS>
+#! <CONNECTIONS>
+#! <CONNECTION
+#!   NAME="Mike Does GIS"
+#!   TYPE="WEB"
+#!   FAMILY="Esri ArcGIS Online"
+#!   USAGE="INTERNAL"
+#! />
+#! </CONNECTIONS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! </GLOBAL_PARAMETERS>
+#! <USER_PARAMETERS
+#!   FORM="eyJwYXJhbWV0ZXJzIjpbXX0="
+#! >
+#! <PARAMETER_INFO>
+#! </PARAMETER_INFO>
+#! </USER_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="10"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Remove some lines we don&apos;t need&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2079.9493594935948 -557.31951569515718"
+#!   TOP_LEFT="2079.9493594935948 -557.31951569515718"
+#!   BOTTOM_RIGHT="2533.9493594935948 -558.31951569515718"
+#!   BOUNDING_RECT="2079.9493594935948 -557.31951569515718 454 1"
+#!   ORDER="500000000000005"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{f78f667b-dc9f-461a-9f28-23bd63c214f5}"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="7"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="11"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Set the reservation number&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3033.7689376893768 -582.94417194171933"
+#!   TOP_LEFT="3033.7689376893768 -582.94417194171933"
+#!   BOTTOM_RIGHT="3487.7689376893768 -583.94417194171933"
+#!   BOUNDING_RECT="3033.7689376893768 -582.94417194171933 454 1"
+#!   ORDER="500000000000006"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{84f63840-e8f7-429d-8775-20870c65bb54}"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="5"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="14"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;remove empty rows&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3887.0392503925041 -690.00825008250081"
+#!   TOP_LEFT="3887.0392503925041 -690.00825008250081"
+#!   BOTTOM_RIGHT="4341.0392503925041 -691.00825008250081"
+#!   BOUNDING_RECT="3887.0392503925041 -690.00825008250081 454 1"
+#!   ORDER="500000000000009"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{a8a72710-6773-447b-ae56-04d3bb50d970}"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="12"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="19"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Clean up campground text&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="5543.3058130581312 -552.50687506875101"
+#!   TOP_LEFT="5543.3058130581312 -552.50687506875101"
+#!   BOTTOM_RIGHT="5997.3058130581312 -553.50687506875101"
+#!   BOUNDING_RECT="5543.3058130581312 -552.50687506875101 454 1"
+#!   ORDER="500000000000014"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{24fc923e-777d-433e-8f86-30d894f199bf}"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="17"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="22"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Remove Tab character&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="5543.3058130581312 -986.00825008250081"
+#!   TOP_LEFT="5543.3058130581312 -986.00825008250081"
+#!   BOTTOM_RIGHT="5997.3058130581312 -987.00825008250081"
+#!   BOUNDING_RECT="5543.3058130581312 -986.00825008250081 454 1"
+#!   ORDER="500000000000016"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{7f2694cb-d0b0-496c-b89d-dd62f460dd2b}"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="20"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="26"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Remove site text&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="6360.3080630806298 -585.00650006500109"
+#!   TOP_LEFT="6360.3080630806298 -585.00650006500109"
+#!   BOTTOM_RIGHT="6814.3080630806298 -586.00650006500109"
+#!   BOUNDING_RECT="6360.3080630806298 -585.00650006500109 454 1"
+#!   ORDER="500000000000019"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{a7a5dc2e-5489-491e-a706-0afa65601733}"
+#!   COLOUR="0.20000000000000001,0.36078431372549019,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="24"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="29"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;remove space character&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="6360.3080630806298 -978.76043760437665"
+#!   TOP_LEFT="6360.3080630806298 -978.76043760437665"
+#!   BOTTOM_RIGHT="6814.3080630806298 -979.76043760437665"
+#!   BOUNDING_RECT="6360.3080630806298 -978.76043760437665 454 1"
+#!   ORDER="500000000000021"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{7a1806d9-55ed-401b-999b-39f91d3186db}"
+#!   COLOUR="0.20000000000000001,0.36078431372549019,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="27"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="34"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;remove extra text from date&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="7274.5731257312573 -603.7566875668756"
+#!   TOP_LEFT="7274.5731257312573 -603.7566875668756"
+#!   BOTTOM_RIGHT="7728.5731257312573 -604.7566875668756"
+#!   BOUNDING_RECT="7274.5731257312573 -603.7566875668756 454 1"
+#!   ORDER="500000000000026"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{e48842c2-35de-449b-9301-045bc678a2b4}"
+#!   COLOUR="0.23137254901960785,0.1803921568627451,0.48627450980392156,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="31"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="36"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;split the dates&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="7274.5731257312573 -1006.8857188571886"
+#!   TOP_LEFT="7274.5731257312573 -1006.8857188571886"
+#!   BOTTOM_RIGHT="7728.5731257312573 -1007.8857188571886"
+#!   BOUNDING_RECT="7274.5731257312573 -1006.8857188571886 454 1"
+#!   ORDER="500000000000027"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{4630d1ae-4101-483b-834d-e8964a2cd390}"
+#!   COLOUR="0.23137254901960785,0.1803921568627451,0.48627450980392156,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="30"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="39"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;set the from and to date to their own fields&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="8143.331813318131 -475.00650006500109"
+#!   TOP_LEFT="8143.331813318131 -475.00650006500109"
+#!   BOTTOM_RIGHT="8597.331813318131 -476.00650006500109"
+#!   BOUNDING_RECT="8143.331813318131 -475.00650006500109 454 1"
+#!   ORDER="500000000000029"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{c4410e61-0502-44f8-b608-83cb87eb62d9}"
+#!   COLOUR="0.23137254901960785,0.1803921568627451,0.48627450980392156,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="37"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="45"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;cleanup the attributes&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="9683.4320908641184 -741.12404336590384"
+#!   TOP_LEFT="9683.4320908641184 -741.12404336590384"
+#!   BOTTOM_RIGHT="10137.432090864118 -742.12404336590384"
+#!   BOUNDING_RECT="9683.4320908641184 -741.12404336590384 454 1"
+#!   ORDER="500000000000033"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{d7897ed9-d774-47c8-9489-9a5d13fb2510}"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="43"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="47"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read camping log&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="830.00300003000029 -647.75731257312577"
+#!   TOP_LEFT="830.00300003000029 -647.75731257312577"
+#!   BOTTOM_RIGHT="1302.0030000300003 -648.75731257312577"
+#!   BOUNDING_RECT="830.00300003000029 -647.75731257312577 472 1"
+#!   ORDER="500000000000035"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{0f143023-ffba-491c-afe5-f4e30705cb47}"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="3"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="48"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;read camping notes from AGO&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="824.76237503000038 227.79156637245387"
+#!   TOP_LEFT="824.76237503000038 227.79156637245387"
+#!   BOTTOM_RIGHT="1302.0030000300003 226.79156637245387"
+#!   BOUNDING_RECT="824.76237503000038 227.79156637245387 477.24062499999997 1"
+#!   ORDER="500000000000036"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{70a8ca86-0d06-42ec-931c-d3b1e3bf6a8f}"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="46"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="55"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;remove state park&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="8894.0467494691129 -380.06036433405188"
+#!   TOP_LEFT="8894.0467494691129 -380.06036433405188"
+#!   BOTTOM_RIGHT="9348.0467494691129 -381.06036433405188"
+#!   BOUNDING_RECT="8894.0467494691129 -380.06036433405188 454 1"
+#!   ORDER="500000000000039"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{2ae66854-3cd9-4adb-a737-74884140176a}"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="51"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="60"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;remove SP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="7348.9596025584106 153.50397145946769"
+#!   TOP_LEFT="7348.9596025584106 153.50397145946769"
+#!   BOTTOM_RIGHT="7802.9596025584106 152.50397145946769"
+#!   BOUNDING_RECT="7348.9596025584106 153.50397145946769 454 1"
+#!   ORDER="500000000000041"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{961a2e0d-e005-4105-939f-894145b26b49}"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="57"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="62"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;remove SNA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="8060.4098662169818 153.50397145946769"
+#!   TOP_LEFT="8060.4098662169818 153.50397145946769"
+#!   BOTTOM_RIGHT="8514.4098662169818 152.50397145946769"
+#!   BOUNDING_RECT="8060.4098662169818 153.50397145946769 454 1"
+#!   ORDER="500000000000041"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{2868ba95-1d6d-4c58-8b0f-33d6b1855e16}"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="61"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="68"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;replacedouble spaces&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="8942.8621246035364 -816.12479337340392"
+#!   TOP_LEFT="8942.8621246035364 -816.12479337340392"
+#!   BOTTOM_RIGHT="9396.8621246035364 -817.12479337340392"
+#!   BOUNDING_RECT="8942.8621246035364 -816.12479337340392 454 1"
+#!   ORDER="500000000000043"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{6890dc47-eb87-4f5b-9dbe-94ce86408620}"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="65"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="70"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;write to AGO&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="12901.363581537045 22.668458351250251"
+#!   TOP_LEFT="12901.363581537045 22.668458351250251"
+#!   BOTTOM_RIGHT="13373.363581537045 21.668458351250251"
+#!   BOUNDING_RECT="12901.363581537045 22.668458351250251 472 1"
+#!   ORDER="500000000000045"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{baac1161-bb37-42e7-b5ac-dfc0d70255e4}"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="69"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="78"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;replace dollar sign&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="9645.4320908641184 -240.05961432655181"
+#!   TOP_LEFT="9645.4320908641184 -240.05961432655181"
+#!   BOTTOM_RIGHT="10099.432090864118 -241.05961432655181"
+#!   BOUNDING_RECT="9645.4320908641184 -240.05961432655181 454 1"
+#!   ORDER="500000000000043"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{af7f9e29-b40d-4976-b80b-0896b6be8266}"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="73"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="23"
+#!   NAME="Campground info"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="5487.0557505575052 -442.50687506875101"
+#!   ORDER="500000000000017"
+#!   PALETTE_COLOR="Color6"
+#!   BOTTOM_RIGHT="6079.0557505575052 -1353.5118751187517"
+#!   BOUNDING_RECT="5487.0557505575052 -442.50687506875101 592 911.00500005000072"
+#!   STICKY="true"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,1"
+#!   CONTENTS="20 21 22 19 17 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="32"
+#!   NAME="Camp site info"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="6310.3080630806298 -475.00650006500109"
+#!   ORDER="500000000000024"
+#!   PALETTE_COLOR="Color7"
+#!   BOTTOM_RIGHT="6902.3080630806298 -1353.5118751187517"
+#!   BOUNDING_RECT="6310.3080630806298 -475.00650006500109 592 878.50537505375064"
+#!   STICKY="true"
+#!   COLOUR="0.20000000000000001,0.36078431372549019,0.51764705882352946,1"
+#!   CONTENTS="27 24 29 26 28 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="42"
+#!   NAME="date time info"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="7224.5731257312573 -365.00650006500109"
+#!   ORDER="500000000000031"
+#!   PALETTE_COLOR="Color8"
+#!   BOTTOM_RIGHT="8672.8316883168809 -1413.5118751187517"
+#!   BOUNDING_RECT="7224.5731257312573 -365.00650006500109 1448.2585625856236 1048.5053750537506"
+#!   STICKY="true"
+#!   COLOUR="0.23137254901960785,0.1803921568627451,0.48627450980392156,1"
+#!   CONTENTS="39 36 31 34 35 37 40 38 30 41 "
+#! >
+#! </BOOKMARK>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="2"
+#!   TYPE="Creator"
+#!   VERSION="6"
+#!   POSITION="56.94501389458344 -7.638965278541832"
+#!   BOUNDING_RECT="56.94501389458344 -7.638965278541832 430 71"
+#!   ORDER="500000000000001"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22765"
+#! >
+#!     <OUTPUT_FEAT NAME="CREATED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="OAN_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="FeatureReader"
+#!   VERSION="13"
+#!   POSITION="872.00300003000029 -806.25806258062585"
+#!   BOUNDING_RECT="872.00300003000029 -806.25806258062585 430 71"
+#!   ORDER="500000000000002"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23619"
+#! >
+#!     <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.fme_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.native_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_format_short_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_format_long_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_schema_handling" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="text_line"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;OTHER&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="text_line,&quot;text_line_data,fme_geometry{0}&quot;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_TYPES" PARM_VALUE="text_line,&quot;buffer,fme_no_geom&quot;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_%text_line"/>
+#!     <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
+#!     <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(FME_MF_DIR_ENCODED)TPWD&lt;space&gt;Camping&lt;space&gt;History&lt;space&gt;Extract.txt"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE="text_line"/>
+#!     <XFORM_PARM PARM_NAME="FORCE_REFRESH_OUTPUTS" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="TEXTLINE"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_ATTRIBUTE_TYPES" PARM_VALUE="text_line,"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="METAFILE,TEXTLINE"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="TEXTLINE_SKIP_LINES,&quot;OPTIONAL INTEGER&quot;,TEXTLINE&lt;space&gt;Number&lt;space&gt;of&lt;space&gt;Lines&lt;space&gt;to&lt;space&gt;Skip:,TEXTLINE_SKIP_FOOTER,&quot;OPTIONAL INTEGER&quot;,TEXTLINE&lt;space&gt;Number&lt;space&gt;of&lt;space&gt;Footer&lt;space&gt;Lines&lt;space&gt;to&lt;space&gt;Skip:,TEXTLINE_TEXTLINE_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS TEXTLINE%Source&quot;,TEXTLINE&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,TEXTLINE_CREATE_FEATURE_TABLES_FROM_DATA,&quot;OPTIONAL NO_EDIT TEXT&quot;,TEXTLINE&lt;space&gt;,TEXTLINE_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP TEXTLINE_EXPOSE_FORMAT_ATTRS&quot;,TEXTLINE&lt;space&gt;Schema&lt;space&gt;Attributes,TEXTLINE_ENCODING,&quot;OPTIONAL STRING_OR_ENCODING fme-system%*&quot;,TEXTLINE&lt;space&gt;Character&lt;space&gt;Encoding:,TEXTLINE_READ_WHOLE_FILE_AT_ONCE,&quot;OPTIONAL ACTIVECHOICE YES,READ_BOTTOM_UP,SKIP_LINES,SKIP_FOOTER%NO&quot;,TEXTLINE&lt;space&gt;Read&lt;space&gt;Whole&lt;space&gt;File&lt;space&gt;at&lt;space&gt;Once:,TEXTLINE_READ_BOTTOM_UP,&quot;OPTIONAL CHOICE Yes%No&quot;,TEXTLINE&lt;space&gt;Read&lt;space&gt;Bottom&lt;space&gt;Up:"/>
+#!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
+#!     <XFORM_PARM PARM_NAME="GENERIC_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Schema and Data Features"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
+#!     <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READ_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEXTLINE_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TEXTLINE_ENCODING" PARM_VALUE="windows-1252"/>
+#!     <XFORM_PARM PARM_NAME="TEXTLINE_EXPOSE_ATTRS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEXTLINE_READ_BOTTOM_UP" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="TEXTLINE_READ_WHOLE_FILE_AT_ONCE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="TEXTLINE_SKIP_FOOTER" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="TEXTLINE_SKIP_LINES" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="TEXTLINE_TEXTLINE_EXPOSE_FORMAT_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="5"
+#!   TYPE="AttributeManager"
+#!   VERSION="4"
+#!   POSITION="3033.7689376893768 -952.32151571515726"
+#!   BOUNDING_RECT="3033.7689376893768 -952.32151571515726 454 71"
+#!   ORDER="500000000000003"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22765"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="text_line_data text_line_data  NO_OP fme_geometry&lt;opencurly&gt;0&lt;closecurly&gt; fme_geometry&lt;opencurly&gt;0&lt;closecurly&gt;  NO_OP  Reservation&lt;space&gt;Number &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;text_line_data&lt;closeparen&gt; CONTAINS TX&apos;&lt;at&gt;Value&lt;openparen&gt;text_line_data&lt;closeparen&gt;&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  Status &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;text_line_data&lt;closeparen&gt; CONTAINS TX&apos;&lt;at&gt;Value&lt;openparen&gt;feature&lt;openbracket&gt;+1&lt;closebracket&gt;.text_line_data&lt;closeparen&gt;&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  Campground &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;text_line_data&lt;closeparen&gt; CONTAINS TX&apos;&lt;at&gt;Value&lt;openparen&gt;feature&lt;openbracket&gt;+2&lt;closebracket&gt;.text_line_data&lt;closeparen&gt;&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  Camp&lt;space&gt;Site &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;text_line_data&lt;closeparen&gt; CONTAINS TX&apos;&lt;at&gt;Value&lt;openparen&gt;feature&lt;openbracket&gt;+3&lt;closebracket&gt;.text_line_data&lt;closeparen&gt;&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  Reservation&lt;space&gt;Details &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;text_line_data&lt;closeparen&gt; CONTAINS TX&apos;&lt;at&gt;Value&lt;openparen&gt;feature&lt;openbracket&gt;+4&lt;closebracket&gt;.text_line_data&lt;closeparen&gt;&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  Total&lt;space&gt;Fee &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;text_line_data&lt;closeparen&gt; CONTAINS TX&apos;&lt;at&gt;Value&lt;openparen&gt;feature&lt;openbracket&gt;+5&lt;closebracket&gt;.text_line_data&lt;closeparen&gt;&apos;FME_NUM_CONDITIONS2___&quot; SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="6"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="USER_EXPOSED_ATTRIBUTES" PARM_VALUE="fme_geometry&lt;opencurly&gt;&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="7"
+#!   TYPE="Tester"
+#!   VERSION="3"
+#!   POSITION="2079.9493594935948 -892.32151571515715"
+#!   BOUNDING_RECT="2079.9493594935948 -892.32151571515715 454 71"
+#!   ORDER="500000000000004"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22765"
+#! >
+#!     <OUTPUT_FEAT NAME="PASSED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;text_line_data&lt;closeparen&gt; = See&lt;space&gt;Detail"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="TEST"/>
+#!     <XFORM_PARM PARM_NAME="TEST_PREVIEW_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="12"
+#!   TYPE="Tester"
+#!   VERSION="3"
+#!   POSITION="3921.9142191421915 -968.75968759687589"
+#!   BOUNDING_RECT="3921.9142191421915 -968.75968759687589 454 71"
+#!   ORDER="500000000000008"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22765"
+#! >
+#!     <OUTPUT_FEAT NAME="PASSED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST Reservation&lt;space&gt;Number ATTRIBUTE_HAS_A_VALUE &quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="TEST"/>
+#!     <XFORM_PARM PARM_NAME="TEST_PREVIEW_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="15"
+#!   TYPE="TestFilter"
+#!   VERSION="2"
+#!   POSITION="4737.547375473755 -952.32151571515726"
+#!   BOUNDING_RECT="4737.547375473755 -952.32151571515726 454 71"
+#!   ORDER="500000000000012"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22765"
+#! >
+#!     <OUTPUT_FEAT NAME="Cancelled"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="Day&lt;space&gt;Pass"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="Cabin"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="Overnight"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="Overnight"/>
+#!     <XFORM_PARM PARM_NAME="PASSED_TEST_GROUP_OUTPUT" PARM_VALUE="FIRST"/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
+#!     <XFORM_PARM PARM_NAME="TESTLISTGRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;Status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;Cancelled&quot;,Cancelled,&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;Campground&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;Day&lt;lt&gt;space&lt;gt&gt;Passes&quot;,Day&lt;space&gt;Pass,&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1 OR 2&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;Camp&lt;lt&gt;space&lt;gt&gt;Site&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;CABIN&lt;lf&gt;CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;Camp&lt;lt&gt;space&lt;gt&gt;Site&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;BUNK&quot;,Cabin"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="17"
+#!   TYPE="StringReplacer"
+#!   VERSION="5"
+#!   POSITION="5575.0557505575052 -793.75793757937618"
+#!   BOUNDING_RECT="5575.0557505575052 -793.75793757937618 454 71"
+#!   ORDER="500000000000013"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22765"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="Site"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="Campground"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="20"
+#!   TYPE="AttributeTrimmer"
+#!   VERSION="3"
+#!   POSITION="5575.0557505575052 -1187.5118751187517"
+#!   BOUNDING_RECT="5575.0557505575052 -1187.5118751187517 454 71"
+#!   ORDER="500000000000015"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22765"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="Campground"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRIM_CHARS" PARM_VALUE="&lt;tab&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRIM_TO_NONE" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TRIM_TYPE" PARM_VALUE="Both"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeTrimmer"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="24"
+#!   TYPE="StringReplacer"
+#!   VERSION="5"
+#!   POSITION="6398.3080630806298 -793.75793757937618"
+#!   BOUNDING_RECT="6398.3080630806298 -793.75793757937618 454 71"
+#!   ORDER="500000000000018"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22765"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="Site:"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="Camp&lt;space&gt;Site"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="27"
+#!   TYPE="AttributeTrimmer"
+#!   VERSION="3"
+#!   POSITION="6398.3080630806298 -1187.5118751187517"
+#!   BOUNDING_RECT="6398.3080630806298 -1187.5118751187517 454 71"
+#!   ORDER="500000000000020"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22765"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="&quot;Camp Site&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRIM_CHARS" PARM_VALUE="&lt;space&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRIM_TO_NONE" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TRIM_TYPE" PARM_VALUE="Both"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeTrimmer_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="30"
+#!   TYPE="AttributeSplitter"
+#!   VERSION="4"
+#!   POSITION="7312.5731257312573 -1156.2615626156262"
+#!   BOUNDING_RECT="7312.5731257312573 -1156.2615626156262 454 71"
+#!   ORDER="500000000000022"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22765"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_dateslist{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="Reservation&lt;space&gt;Details"/>
+#!     <XFORM_PARM PARM_NAME="DELIMITER" PARM_VALUE="&lt;space&gt;-&lt;space&gt;"/>
+#!     <XFORM_PARM PARM_NAME="DROP_EMPTY_PARTS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="_dateslist"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRIM_OPTION" PARM_VALUE="Both"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeSplitter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="31"
+#!   TYPE="StringReplacer"
+#!   VERSION="5"
+#!   POSITION="7312.5731257312573 -812.5081250812508"
+#!   BOUNDING_RECT="7312.5731257312573 -812.5081250812508 454 71"
+#!   ORDER="500000000000025"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22765"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;backslash&gt;&lt;openparen&gt;&lt;openparen&gt;&lt;openbracket&gt;^&lt;closeparen&gt;&lt;closebracket&gt;+&lt;closeparen&gt;&lt;backslash&gt;&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="Reservation&lt;space&gt;Details"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_3"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="37"
+#!   TYPE="AttributeManager"
+#!   VERSION="4"
+#!   POSITION="8168.8316883168809 -812.5081250812508"
+#!   BOUNDING_RECT="8168.8316883168809 -812.5081250812508 454 71"
+#!   ORDER="500000000000028"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22765"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_dateslist{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fromdate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="todate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="text_line_data text_line_data  NO_OP fme_geometry&lt;opencurly&gt;0&lt;closecurly&gt; fme_geometry&lt;opencurly&gt;0&lt;closecurly&gt;  NO_OP Reservation&lt;space&gt;Number Reservation&lt;space&gt;Number  NO_OP Status Status  NO_OP Campground Campground  NO_OP Camp&lt;space&gt;Site Camp&lt;space&gt;Site  NO_OP Reservation&lt;space&gt;Details Reservation&lt;space&gt;Details  NO_OP Total&lt;space&gt;Fee Total&lt;space&gt;Fee  NO_OP _dateslist&lt;opencurly&gt;&lt;closecurly&gt; _dateslist&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP fme_geometry&lt;opencurly&gt;&lt;closecurly&gt; fme_geometry&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP  fromdate &lt;at&gt;Value&lt;openparen&gt;_dateslist&lt;opencurly&gt;0&lt;closecurly&gt;&lt;closeparen&gt; SET_TO  todate &lt;at&gt;Value&lt;openparen&gt;_dateslist&lt;opencurly&gt;1&lt;closecurly&gt;&lt;closeparen&gt; SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="USER_EXPOSED_ATTRIBUTES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="40"
+#!   TYPE="DateTimeConverter"
+#!   VERSION="4"
+#!   POSITION="8168.8316883168809 -1187.5118751187517"
+#!   BOUNDING_RECT="8168.8316883168809 -1187.5118751187517 454 71"
+#!   ORDER="500000000000030"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22765"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_dateslist{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fromdate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="todate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_dateslist{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fromdate" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="todate" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="DATETIME_ATTR" PARM_VALUE="todate fromdate"/>
+#!     <XFORM_PARM PARM_NAME="IN_FORMAT" PARM_VALUE="*&lt;space&gt;%b&lt;space&gt;%d&lt;space&gt;%Y"/>
+#!     <XFORM_PARM PARM_NAME="OUT_FORMAT" PARM_VALUE="FME"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PASSTHROUGH" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="REFERENCE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REFERENCE_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="REPAIR_INPUT" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="TEST_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_INPUT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_INPUT_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_RESULT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateTimeConverter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="43"
+#!   TYPE="AttributeManager"
+#!   VERSION="4"
+#!   POSITION="9721.4320908641184 -956.12554338090399"
+#!   BOUNDING_RECT="9721.4320908641184 -956.12554338090399 454 71"
+#!   ORDER="500000000000032"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22765"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_dateslist{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fromdate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="todate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="USER_EXPOSED_ATTRIBUTES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_3"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="46"
+#!   TYPE="FeatureReader"
+#!   VERSION="14"
+#!   POSITION="866.76237503000038 19.290316359953749"
+#!   BOUNDING_RECT="866.76237503000038 19.290316359953749 435.24062499999997 71"
+#!   ORDER="500000000000034"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23619"
+#! >
+#!     <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.fme_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.native_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_format_short_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_format_long_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_schema_handling" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="Park_Boundary"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Park_Home_Page" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Availability" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="UseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SHAPE__Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SHAPE__Length" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="Park_Centroid"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="&lt;OTHER&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="5"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_AGOL_ADV_PARM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_ARCGISONLINEFEATURES_EXPOSE_FORMAT_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_EXPOSE_ATTRS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_FEATURESERVICE" PARM_VALUE="mikedoesgis/Camping/camping(82b057feca404205b2b993f5e6aa7b40)"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_FEATURES_PER_REQUEST" PARM_VALUE="1000"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_FORMAT_GUID" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_NC" PARM_VALUE="Mike&lt;space&gt;Does&lt;space&gt;GIS"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_RESOLVE_DOMAINS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_TABLELIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_USE_SEARCH_ENVELOPE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="Park_Boundary,&quot;Name,Type,Park_Home_Page,Availability,UseType,OBJECTID,SHAPE__Area,SHAPE__Length&quot;,Park_Centroid,&quot;Name,OBJECTID&quot;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_TYPES" PARM_VALUE="Park_Boundary,&quot;varchar(2048),varchar(2048),varchar(2048),varchar(2048),varchar(2048),int32,real64,real64&quot;,Park_Centroid,&quot;varchar(2048),int32&quot;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_%Park_Boundary%Park_Centroid"/>
+#!     <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
+#!     <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="&lt;lt&gt;Unused&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE="Park_Boundary Park_Centroid"/>
+#!     <XFORM_PARM PARM_NAME="FORCE_REFRESH_OUTPUTS" PARM_VALUE="on_parm_change"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ARCGISONLINEFEATURES"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_ATTRIBUTE_TYPES" PARM_VALUE="Park_Boundary,,Park_Centroid,"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="METAFILE,ARCGISONLINEFEATURES"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ARCGISONLINEFEATURES_NC,&quot;OPTIONAL NAMED_CONNECTION_ENCODED &quot;&quot;Esri ArcGIS Online&quot;&quot;&quot;,ARCGISONLINEFEATURES&lt;space&gt;ArcGIS&lt;space&gt;Online&lt;space&gt;Connection:,ARCGISONLINEFEATURES_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%SEARCH_ENVELOPE_COORDINATE_SYSTEM%CLIP_TO_ENVELOPE%SEARCH_METHOD%SEARCH_METHOD_FILTER%SEARCH_ORDER%SEARCH_FEATURE%DUMMY_SEARCH_ENVELOPE_PARAMETER&quot;,ARCGISONLINEFEATURES&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope,ARCGISONLINEFEATURES_CREATE_FEATURE_TABLES_FROM_DATA,&quot;OPTIONAL NO_EDIT TEXT&quot;,ARCGISONLINEFEATURES&lt;space&gt;,ARCGISONLINEFEATURES_ARCGISONLINEFEATURES_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS ARCGISONLINEFEATURES%Source&quot;,ARCGISONLINEFEATURES&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,ARCGISONLINEFEATURES_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP ARCGISONLINEFEATURES_EXPOSE_FORMAT_ATTRS&quot;,ARCGISONLINEFEATURES&lt;space&gt;Schema&lt;space&gt;Attributes,ARCGISONLINEFEATURES_AGOL_ADV_PARM_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FEATURES_PER_REQUEST&quot;,ARCGISONLINEFEATURES&lt;space&gt;Advanced,ARCGISONLINEFEATURES_FEATURES_PER_REQUEST,&quot;OPTIONAL INTEGER&quot;,ARCGISONLINEFEATURES&lt;space&gt;Features&lt;space&gt;Per&lt;space&gt;Request:,ARCGISONLINEFEATURES_RESOLVE_DOMAINS,&quot;OPTIONAL CHOICE Yes%No&quot;,ARCGISONLINEFEATURES&lt;space&gt;Resolve&lt;space&gt;Domains:,ARCGISONLINEFEATURES_FORMAT_GUID,&quot;OPTIONAL NO_EDIT TEXT&quot;,ARCGISONLINEFEATURES&lt;space&gt;,ARCGISONLINEFEATURES_TABLELIST,&quot;IGNORE TEXT&quot;,ARCGISONLINEFEATURES&lt;space&gt;Layers:,ARCGISONLINEFEATURES_FEATURESERVICE,&quot;OPTIONAL WEB_SELECT DEPENDENT_PARAMETERS:NC%MODULE:arcgisonlinefeatures.arcgisonlinefeatureswebselector%SELECTION:ITEMS_ONLY%SHOWID%KEYVALS:mode,onlinereader%NO_SEARCH&quot;,ARCGISONLINEFEATURES&lt;space&gt;Feature&lt;space&gt;Service:,ARCGISONLINEFEATURES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;OPTIONAL NO_EDIT TEXT&quot;,ARCGISONLINEFEATURES&lt;space&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
+#!     <XFORM_PARM PARM_NAME="GENERIC_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="NONE"/>
+#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ORDER_RESULTS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Schema and Data Features"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
+#!     <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READ_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="50"
+#!   TYPE="FeatureMerger"
+#!   VERSION="20"
+#!   POSITION="10436.061150734964 38.580632719907442"
+#!   BOUNDING_RECT="10436.061150734964 38.580632719907442 486.984375 71"
+#!   ORDER="500000000000037"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23619"
+#!   INPUT_FT_ORDER="SUPPLIER%REQUESTOR"
+#! >
+#!     <OUTPUT_FEAT NAME="MERGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_dateslist{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fromdate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="todate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="UNMERGED_REQUESTOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_dateslist{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fromdate" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="todate" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="USED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="UNUSED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_dateslist{}" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fromdate" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="todate" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
+#!     <XFORM_PARM PARM_NAME="CLEANING_TOLERANCE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;Campground&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;Name&lt;closeparen&gt; AUTO"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes and Geometry"/>
+#!     <XFORM_PARM PARM_NAME="MODE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
+#!     <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="REJECT_NULL_MISSING_KEYS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="51"
+#!   TYPE="StringReplacer"
+#!   VERSION="5"
+#!   POSITION="8932.0467494691129 -520.06111434155196"
+#!   BOUNDING_RECT="8932.0467494691129 -520.06111434155196 454 71"
+#!   ORDER="500000000000038"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23619"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_dateslist{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fromdate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="todate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="state&lt;space&gt;park"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="Campground"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_4"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="57"
+#!   TYPE="StringReplacer"
+#!   VERSION="5"
+#!   POSITION="7386.9596025584106 13.503221451967619"
+#!   BOUNDING_RECT="7386.9596025584106 13.503221451967619 454 71"
+#!   ORDER="500000000000040"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23619"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="SP"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="Name"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_5"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="61"
+#!   TYPE="StringReplacer"
+#!   VERSION="5"
+#!   POSITION="8098.4098662169818 13.503221451967619"
+#!   BOUNDING_RECT="8098.4098662169818 13.503221451967619 454 71"
+#!   ORDER="500000000000040"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23619"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="SNA"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="Name"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_6"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="65"
+#!   TYPE="StringReplacer"
+#!   VERSION="5"
+#!   POSITION="8980.8621246035364 -956.12554338090399"
+#!   BOUNDING_RECT="8980.8621246035364 -956.12554338090399 454 71"
+#!   ORDER="500000000000042"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23619"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_dateslist{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fromdate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="todate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;space&gt;&lt;space&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="&lt;space&gt;&lt;space&gt;-&lt;space&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="Campground"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_7"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="69"
+#!   TYPE="FeatureWriter"
+#!   VERSION="0"
+#!   POSITION="12901.363581537045 -135.83229165624982"
+#!   BOUNDING_RECT="12901.363581537045 -135.83229165624982 430 71"
+#!   ORDER="500000000000044"
+#!   PARMS_EDITED="true"
+#!   ENABLED="false"
+#!   LAST_PARM_EDIT="23619"
+#! >
+#!     <OUTPUT_FEAT NAME="SUMMARY"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_feature_types{}.count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_feature_types{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_total_features_written" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_AGOL_ADV_PARM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_ASYNC_WRITE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_DESTINATION_DATASETTYPE_VALIDATION" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_FEATURESERVICE" PARM_VALUE="camping_history"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_FEATURES_PER_REQUEST" PARM_VALUE="1000"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_FEATURE_SERVICE_HANDLING" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_FEATURE_SERVICE_SELECTION_SOURCE" PARM_VALUE="User"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_FOLDER_NAME" PARM_VALUE="Camping"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_NC" PARM_VALUE="Mike&lt;space&gt;Does&lt;space&gt;GIS"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_TARGET_WKID" PARM_VALUE="102100"/>
+#!     <XFORM_PARM PARM_NAME="ARCGISONLINEFEATURES_USE_GLOBAL_ID" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="&lt;lt&gt;Unused&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="DATASET_ATTR" PARM_VALUE="_dataset"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE_LIST_ATTR" PARM_VALUE="_feature_types"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ARCGISONLINEFEATURES"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="RUNTIME_MACROS,NC&lt;comma&gt;Mike&lt;lt&gt;space&lt;gt&gt;Does&lt;lt&gt;space&lt;gt&gt;GIS&lt;comma&gt;FEATURE_SERVICE_SELECTION_SOURCE&lt;comma&gt;User&lt;comma&gt;FOLDER_NAME&lt;comma&gt;Camping&lt;comma&gt;GROUP_ID&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;FEATURESERVICE&lt;comma&gt;camping_history&lt;comma&gt;FEATURE_SERVICE_HANDLING&lt;comma&gt;CREATE_IF_MISSING&lt;comma&gt;TARGET_WKID&lt;comma&gt;102100&lt;comma&gt;AGOL_ADV_PARM_GROUP&lt;comma&gt;&lt;comma&gt;FEATURES_PER_REQUEST&lt;comma&gt;1000&lt;comma&gt;USE_GLOBAL_ID&lt;comma&gt;No&lt;comma&gt;PRESERVE_GLOBALID&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;ASYNC_WRITE&lt;comma&gt;NO&lt;comma&gt;ASYNC_WRITE_WAIT&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;ASYNC_WRITE_TIMEOUT&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;DESTINATION_DATASETTYPE_VALIDATION&lt;comma&gt;Yes,METAFILE,ARCGISONLINEFEATURES"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ARCGISONLINEFEATURES_NC,&quot;OPTIONAL NAMED_CONNECTION_ENCODED &quot;&quot;Esri ArcGIS Online&quot;&quot;&quot;,ARCGISONLINEFEATURES&lt;space&gt;ArcGIS&lt;space&gt;Online&lt;space&gt;Connection:,ARCGISONLINEFEATURES_USE_GLOBAL_ID,&quot;OPTIONAL ACTIVECHOICE Yes%No,PRESERVE_GLOBALID&quot;,ARCGISONLINEFEATURES&lt;space&gt;Use&lt;space&gt;Global&lt;space&gt;IDs:,ARCGISONLINEFEATURES_DESTINATION_DATASETTYPE_VALIDATION,&quot;OPTIONAL NO_EDIT TEXT&quot;,ARCGISONLINEFEATURES&lt;space&gt;,ARCGISONLINEFEATURES_AGOL_ADV_PARM_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FEATURES_PER_REQUEST%USE_GLOBAL_ID%PRESERVE_GLOBALID%ASYNC_WRITE%ASYNC_WRITE_WAIT%ASYNC_WRITE_TIMEOUT&quot;,ARCGISONLINEFEATURES&lt;space&gt;Advanced,ARCGISONLINEFEATURES_FEATURES_PER_REQUEST,&quot;OPTIONAL INTEGER&quot;,ARCGISONLINEFEATURES&lt;space&gt;Features&lt;space&gt;Per&lt;space&gt;Request:,ARCGISONLINEFEATURES_FEATURE_SERVICE_SELECTION_SOURCE,&quot;OPTIONAL ACTIVECHOICE_LOOKUP User&lt;space&gt;Content,User,GROUP_ID%Group,Group,FOLDER_NAME,FEATURE_SERVICE_HANDLING&quot;,ARCGISONLINEFEATURES&lt;space&gt;Item&lt;space&gt;Source,ARCGISONLINEFEATURES_FOLDER_NAME,&quot;OPTIONAL WEB_SELECT_ENCODED DEPENDENT_PARAMETERS:NC%SHOWID%PROMPTFORTITLE%NO_SEARCH%SINGLEDEPTH%ITEM_ICON:%MODULE:arcgisonlinefeatures.arcgisonlinefeatureswebselector%KEYVALS:mode,onlinewriter,target,folders&quot;,ARCGISONLINEFEATURES&lt;space&gt;Folder,ARCGISONLINEFEATURES_FEATURE_SERVICE_HANDLING,&quot;OPTIONAL LOOKUP_CHOICE Use&lt;space&gt;Existing,USE_EXISTING%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Overwrite,DROP_CREATE&quot;,ARCGISONLINEFEATURES&lt;space&gt;Feature&lt;space&gt;Service&lt;space&gt;Handling,ARCGISONLINEFEATURES_ASYNC_WRITE,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Yes,YES%No,NO,ASYNC_WRITE_WAIT,ASYNC_WRITE_TIMEOUT&quot;,ARCGISONLINEFEATURES&lt;space&gt;Asynchronous&lt;space&gt;Writes:,ARCGISONLINEFEATURES_FEATURESERVICE,&quot;OPTIONAL WEB_SELECT_ENCODED DEPENDENT_PARAMETERS:NC:FOLDER_NAME:GROUP_ID:FEATURE_SERVICE_SELECTION_SOURCE%SHOWID%PROMPTFORTITLE%NO_SEARCH%ITEM_ICON:%MODULE:arcgisonlinefeatures.arcgisonlinefeatureswebselector%KEYVALS:mode,onlinewriter,target,featureservices&quot;,ARCGISONLINEFEATURES&lt;space&gt;Feature&lt;space&gt;Service,ARCGISONLINEFEATURES_TARGET_WKID,&quot;OPTIONAL RANGE_SLIDER 2000%105000%0%OFF&quot;,ARCGISONLINEFEATURES&lt;space&gt;Target&lt;space&gt;WKID:"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="MORE_SUMMARY_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NO_OUTPUT_PORTS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS" PARM_VALUE="&quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="NO_OUTPUT_PORTS"/>
+#!     <XFORM_PARM PARM_NAME="PER_EACH_INPUT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SUMMARY_ATTRS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TOTAL_FEATURES_WRITTEN_ATTR" PARM_VALUE="_total_features_written"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WRITER_DIRECTIVES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_PARAMS" PARM_VALUE="Camp&lt;space&gt;Sites:Camp&lt;space&gt;Sites00,ftp_feature_type_name,Camp&lt;space&gt;Sites,ftp_writer,ARCGISONLINEFEATURES,ftp_geometry,arcgisonline_point,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,&lt;lt&gt;lt&lt;gt&gt;Unused&lt;lt&gt;gt&lt;gt&gt;,ftp_attribute_source,1,ftp_user_attributes,campground&lt;comma&gt;String&lt;lt&gt;openparen&lt;gt&gt;100&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;camp_site&lt;comma&gt;String&lt;lt&gt;openparen&lt;gt&gt;20&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;fromdate&lt;comma&gt;Date&lt;comma&gt;todate&lt;comma&gt;Date&lt;comma&gt;reservation_number&lt;comma&gt;String&lt;lt&gt;openparen&lt;gt&gt;20&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;reservation_details&lt;comma&gt;String&lt;lt&gt;openparen&lt;gt&gt;200&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;total_fee&lt;comma&gt;Double,ftp_user_attribute_values,&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;,ftp_format_parameters,arcgisonline_layer_group&lt;comma&gt;&lt;comma&gt;fme_feature_operation&lt;comma&gt;INSERT&lt;comma&gt;fme_table_handling&lt;comma&gt;TRUNCATE_EXISTING&lt;comma&gt;fme_update_geometry&lt;comma&gt;&lt;lt&gt;lt&lt;gt&gt;Unused&lt;lt&gt;gt&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WRITER_METAFILE" PARM_VALUE="ATTRIBUTE_CASE,ANY,ATTRIBUTE_INVALID_CHARS,&lt;lt&gt;&lt;gt&gt;|&lt;backslash&gt;&lt;backslash&gt;&lt;quote&gt;&lt;semicolon&gt;=:&lt;dollar&gt;?*&lt;closeparen&gt;&lt;openparen&gt;&lt;openbracket&gt;%#&lt;apos&gt;&lt;amp&gt;+-&lt;closebracket&gt;^~&lt;comma&gt;&lt;opencurly&gt;&lt;closecurly&gt;.&lt;solidus&gt;`!&lt;at&gt;,ATTRIBUTE_LENGTH,0,ATTR_TYPE_MAP,Integer&lt;comma&gt;fme_int32&lt;comma&gt;Integer&lt;comma&gt;fme_uint32&lt;comma&gt;Integer&lt;comma&gt;fme_int64&lt;comma&gt;Integer&lt;comma&gt;fme_uint64&lt;comma&gt;SmallInteger&lt;comma&gt;fme_int16&lt;comma&gt;Integer&lt;comma&gt;fme_uint16&lt;comma&gt;SmallInteger&lt;comma&gt;fme_uint8&lt;comma&gt;Single&lt;comma&gt;fme_real32&lt;comma&gt;Double&lt;comma&gt;fme_real64&lt;comma&gt;Date&lt;comma&gt;fme_datetime&lt;comma&gt;Date&lt;comma&gt;fme_date&lt;comma&gt;Date&lt;comma&gt;fme_time&lt;comma&gt;String&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_varchar&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;String&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_varbinary&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;String&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_char&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;String&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_binary&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;String&lt;openparen&gt;254&lt;closeparen&gt;&lt;comma&gt;fme_buffer&lt;comma&gt;String&lt;openparen&gt;254&lt;closeparen&gt;&lt;comma&gt;fme_binarybuffer&lt;comma&gt;String&lt;openparen&gt;254&lt;closeparen&gt;&lt;comma&gt;fme_xml&lt;comma&gt;String&lt;openparen&gt;254&lt;closeparen&gt;&lt;comma&gt;fme_json&lt;comma&gt;String&lt;comma&gt;fme_buffer&lt;comma&gt;OID&lt;comma&gt;fme_int32&lt;comma&gt;OID&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_int32&lt;comma&gt;Double&lt;comma&gt;&lt;quote&gt;fme_decimal&lt;openparen&gt;width&lt;comma&gt;decimal&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;SmallInteger&lt;comma&gt;fme_boolean&lt;comma&gt;GUID&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_varchar&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;GlobalID&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_varchar&lt;openparen&gt;width&lt;closeparen&gt;,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,&lt;lt&gt;&lt;gt&gt;|&lt;backslash&gt;&lt;backslash&gt;&lt;quote&gt;&lt;semicolon&gt;=,FEATURE_TYPE_LENGTH,0,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile&lt;backslash&gt;ARCGISONLINEFEATURES.fmf,FORMAT_NAME,ARCGISONLINEFEATURES,GEOM_MAP,arcgisonline_no_geom&lt;comma&gt;fme_no_geom&lt;comma&gt;arcgisonline_point&lt;comma&gt;fme_point&lt;comma&gt;arcgisonline_multipoint&lt;comma&gt;fme_point&lt;comma&gt;arcgisonline_point&lt;comma&gt;fme_text&lt;comma&gt;arcgisonline_polyline&lt;comma&gt;fme_line&lt;comma&gt;arcgisonline_polygon&lt;comma&gt;fme_polygon&lt;comma&gt;arcgisonline_polygon&lt;comma&gt;fme_rectangle&lt;comma&gt;arcgisonline_polygon&lt;comma&gt;fme_rounded_rectangle&lt;comma&gt;arcgisonline_no_geom&lt;comma&gt;fme_solid&lt;comma&gt;arcgisonline_no_geom&lt;comma&gt;fme_surface&lt;comma&gt;arcgisonline_no_geom&lt;comma&gt;fme_raster&lt;comma&gt;arcgisonline_no_geom&lt;comma&gt;fme_point_cloud&lt;comma&gt;arcgisonline_polygon&lt;comma&gt;fme_ellipse&lt;comma&gt;arcgisonline_polyline&lt;comma&gt;fme_arc&lt;comma&gt;arcgisonline_no_geom&lt;comma&gt;fme_voxel_grid&lt;comma&gt;arcgisonline_no_geom&lt;comma&gt;fme_feature_table&lt;comma&gt;arcgisonline_no_geom&lt;comma&gt;fme_collection,READER_ATTR_INDEX_TYPES,,READER_FORMAT_TYPE,PYTHON,READER_USES_DEF,yes,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,yes,SUPPORTS_MULTI_GEOM,no,WORKBENCH_CANNED_SCHEMA,,WRITER,ARCGISONLINEFEATURES,WRITER_ATTR_INDEX_TYPES,,WRITER_DEFLINE_PARMS,&lt;quote&gt;GUI&lt;space&gt;NAMEDGROUP&lt;space&gt;arcgisonline_layer_group&lt;space&gt;fme_feature_operation%fme_table_handling%fme_update_geometry&lt;space&gt;Layer&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;ACTIVECHOICE_LOOKUP&lt;space&gt;fme_feature_operation&lt;space&gt;Insert&lt;comma&gt;INSERT&lt;comma&gt;fme_update_geometry%Update&lt;comma&gt;UPDATE&lt;comma&gt;fme_match_columns%Delete&lt;comma&gt;DELETE&lt;comma&gt;fme_update_geometry%Upsert&lt;comma&gt;UPSERT%&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;fme_db_operation&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;MULTIPLE&lt;space&gt;Feature&lt;space&gt;Operation&lt;quote&gt;&lt;comma&gt;INSERT&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;ACTIVECHOICE_LOOKUP&lt;space&gt;fme_table_handling&lt;space&gt;Use&lt;lt&gt;space&lt;gt&gt;Existing&lt;comma&gt;USE_EXISTING%Truncate&lt;lt&gt;space&lt;gt&gt;Existing&lt;comma&gt;TRUNCATE_EXISTING&lt;space&gt;Feature&lt;space&gt;Type&lt;space&gt;Handling&lt;quote&gt;&lt;comma&gt;USE_EXISTING&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;WHOLE_LINE&lt;space&gt;LOOKUP_CHOICE&lt;space&gt;fme_update_geometry&lt;space&gt;Yes&lt;comma&gt;YES%No&lt;comma&gt;NO&lt;space&gt;Update&lt;space&gt;Spatial&lt;space&gt;Column&lt;openparen&gt;s&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;YES,WRITER_DEF_LINE_TEMPLATE,&lt;opencurly&gt;FME_GEN_GROUP_NAME&lt;closecurly&gt;&lt;comma&gt;arcgisonline_type&lt;comma&gt;&lt;opencurly&gt;FME_GEN_GEOMETRY&lt;closecurly&gt;&lt;comma&gt;arcgisonline_mode&lt;comma&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;comma&gt;arcgisonline_truncate_layer&lt;comma&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;comma&gt;fme_update_geometry&lt;comma&gt;YES&lt;comma&gt;fme_feature_operation&lt;comma&gt;INSERT&lt;comma&gt;fme_table_handling&lt;comma&gt;USE_EXISTING,WRITER_FORMAT_PARAMETER,NETWORK_AUTHENTICATION&lt;comma&gt;NO&lt;comma&gt;ATTRIBUTE_READING&lt;comma&gt;DEFLINE&lt;comma&gt;ADVANCED_PARMS&lt;comma&gt;&lt;quote&gt;ARCGISONLINEFEATURES_IN_FEATURES_PER_REQUEST&lt;space&gt;ARCGISONLINEFEATURES_OUT_FEATURES_PER_REQUEST&lt;space&gt;ARCGISONLINEFEATURES_OUT_PRESERVE_GLOBALID&lt;space&gt;ARCGISONLINEFEATURES_OUT_ASYNC_WRITE&lt;space&gt;ARCGISONLINEFEATURES_OUT_ASYNC_WRITE_WAIT&lt;space&gt;ARCGISONLINEFEATURES_OUT_ASYNC_WRITE_TIMEOUT&lt;quote&gt;&lt;comma&gt;FEATURE_TYPE_NAME&lt;comma&gt;Layer&lt;comma&gt;FEATURE_TYPE_DEFAULT_NAME&lt;comma&gt;Layer1,WRITER_FORMAT_TYPE,PYTHON,WRITER_HAS_DEFLINE_ATTRS,yes,WRITER_USES_DEF,yes"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureWriter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="72"
+#!   TYPE="AttributeManager"
+#!   VERSION="5"
+#!   POSITION="12242.983160942718 -65.987114192129525"
+#!   BOUNDING_RECT="12242.983160942718 -65.987114192129525 454 71"
+#!   ORDER="500000000000046"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23619"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="fromdate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="todate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reservation_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="camp_site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reservation_details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="total_fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="text_line_data text_line_data  buffer REMOVE fme_geometry&lt;opencurly&gt;0&lt;closecurly&gt; fme_geometry&lt;opencurly&gt;0&lt;closecurly&gt;  fme_no_geom REMOVE _dateslist&lt;opencurly&gt;&lt;closecurly&gt; _dateslist&lt;opencurly&gt;&lt;closecurly&gt;  varchar&lt;openparen&gt;200&lt;closeparen&gt; REMOVE fromdate fromdate  varchar&lt;openparen&gt;200&lt;closeparen&gt; NO_OP todate todate  varchar&lt;openparen&gt;200&lt;closeparen&gt; NO_OP fme_geometry&lt;opencurly&gt;&lt;closecurly&gt; fme_geometry&lt;opencurly&gt;&lt;closecurly&gt;  varchar&lt;openparen&gt;200&lt;closeparen&gt; REMOVE reservation&lt;space&gt;number reservation_number  varchar&lt;openparen&gt;200&lt;closeparen&gt; RENAME_SET_VALUE status status  varchar&lt;openparen&gt;200&lt;closeparen&gt; REMOVE campground campground  varchar&lt;openparen&gt;200&lt;closeparen&gt; NO_OP camp&lt;space&gt;site camp_site  varchar&lt;openparen&gt;200&lt;closeparen&gt; RENAME_SET_VALUE reservation&lt;space&gt;details reservation_details  varchar&lt;openparen&gt;200&lt;closeparen&gt; RENAME_SET_VALUE total&lt;space&gt;fee total_fee  varchar&lt;openparen&gt;200&lt;closeparen&gt; RENAME_SET_VALUE name name  varchar&lt;openparen&gt;2048&lt;closeparen&gt; REMOVE objectid objectid  int32 REMOVE"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="USER_EXPOSED_ATTRIBUTES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="USER_MODIFIED_ATTRIBUTE_TYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_4"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="71"
+#!   TYPE="BulkAttributeRenamer"
+#!   VERSION="5"
+#!   POSITION="11282.20192493303 -168.97289191360085"
+#!   BOUNDING_RECT="11282.20192493303 -168.97289191360085 475.94374999999997 71"
+#!   ORDER="500000000000047"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23619"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reservation number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="camp site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reservation details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="total fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_dateslist{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fromdate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="todate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="All Attributes"/>
+#!     <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CASE_CHANGE_TYPE" PARM_VALUE="lower"/>
+#!     <XFORM_PARM PARM_NAME="CASE_DISP" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MODE_CHOICE" PARM_VALUE="RENAME"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PATTERN_ACTION_DISP" PARM_VALUE="CASECHANGE"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_PATTERN" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_STR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BulkAttributeRenamer"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="73"
+#!   TYPE="StringReplacer"
+#!   VERSION="5"
+#!   POSITION="9683.4320908641184 -380.06036433405188"
+#!   BOUNDING_RECT="9683.4320908641184 -380.06036433405188 454 71"
+#!   ORDER="500000000000042"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23619"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Campground" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Camp Site" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservation Details" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Total Fee" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_dateslist{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fromdate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="todate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;dollar&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="Total&lt;space&gt;Fee"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_8"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="4"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="49"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="46"
+#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="13"
+#!   SOURCE_NODE="5"
+#!   TARGET_NODE="12"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="16"
+#!   SOURCE_NODE="12"
+#!   TARGET_NODE="15"
+#!   SOURCE_PORT_DESC="fo 0 PASSED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="21"
+#!   SOURCE_NODE="17"
+#!   TARGET_NODE="20"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="25"
+#!   SOURCE_NODE="20"
+#!   TARGET_NODE="24"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="28"
+#!   SOURCE_NODE="24"
+#!   TARGET_NODE="27"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="33"
+#!   SOURCE_NODE="27"
+#!   TARGET_NODE="31"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="38"
+#!   SOURCE_NODE="30"
+#!   TARGET_NODE="37"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="35"
+#!   SOURCE_NODE="31"
+#!   TARGET_NODE="30"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="41"
+#!   SOURCE_NODE="37"
+#!   TARGET_NODE="40"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="53"
+#!   SOURCE_NODE="40"
+#!   TARGET_NODE="51"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="79"
+#!   SOURCE_NODE="43"
+#!   TARGET_NODE="50"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 1 REQUESTOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="75"
+#!   SOURCE_NODE="50"
+#!   TARGET_NODE="71"
+#!   SOURCE_PORT_DESC="fo 0 MERGED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="66"
+#!   SOURCE_NODE="51"
+#!   TARGET_NODE="65"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="63"
+#!   SOURCE_NODE="57"
+#!   TARGET_NODE="61"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="64"
+#!   SOURCE_NODE="61"
+#!   TARGET_NODE="50"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 SUPPLIER"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="77"
+#!   SOURCE_NODE="65"
+#!   TARGET_NODE="73"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="76"
+#!   SOURCE_NODE="71"
+#!   TARGET_NODE="72"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="74"
+#!   SOURCE_NODE="72"
+#!   TARGET_NODE="69"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 Camp&lt;lt&gt;space&lt;gt&gt;Sites00"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="80"
+#!   SOURCE_NODE="73"
+#!   TARGET_NODE="43"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="8"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="7"
+#!   SOURCE_PORT_DESC="fo 1 text_line"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="9"
+#!   SOURCE_NODE="7"
+#!   TARGET_NODE="5"
+#!   SOURCE_PORT_DESC="fo 1 FAILED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="18"
+#!   SOURCE_NODE="15"
+#!   TARGET_NODE="17"
+#!   SOURCE_PORT_DESC="fo 3 Overnight"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="81"
+#!   SOURCE_NODE="46"
+#!   TARGET_NODE="57"
+#!   SOURCE_PORT_DESC="fo 2 Park_Centroid"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+
+FME_PYTHON_VERSION 39
+ARCGIS_COMPATIBILITY ARCGIS_AUTO
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+WRITER_TYPE MULTI_WRITER
+WRITER_KEYWORD MULTI_DEST
+MULTI_DEST_DATASET null
+#! END_WB_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)TPWD Camping History Converter.log"
+LOG_APPEND NO
+LOG_FILTER_MASK -1
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+FME_NAMES_ENCODING UTF-8
+FME_BULK_MODE_THRESHOLD 2000
+LAST_SAVE_BUILD "FME 2023.1.0.0 (20230825 - Build 23619 - WIN64)"
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME TPWD Camping History Converter
+MACRO FME_VIEWER_APP fmedatainspector
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+Tcl2 proc Creator_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
+MACRO Creator_XML     NOT_ACTIVATED
+MACRO Creator_CLASSIC NOT_ACTIVATED
+MACRO Creator_2D3D    2D_GEOMETRY
+MACRO Creator_COORDS  <Unused>
+INCLUDE [ if { {Geometry Object} == {Geometry Object} } {            puts {MACRO Creator_XML *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Coordinate List} } {            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {3D Coordinate List} } {            puts {MACRO Creator_2D3D 3D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment {                We need to turn the COORDS which are                    minX minY maxX maxY                into a full polygon list of coordinates            };            set splitCoords [split [string trim {<Unused>}]];            if { [llength $splitCoords] > 4} {               set trimmedCoords {};               foreach item $splitCoords { if { $item != {} } {lappend trimmedCoords $item} };               set splitCoords $trimmedCoords;            };            if { [llength $splitCoords] != 4 } {                error {Creator: Coordinate list is expected to be a space delimited list of four numbers as 'minx miny maxx maxy' - `<Unused>' is invalid};            };            set minX [lindex $splitCoords 0];            set minY [lindex $splitCoords 1];            set maxX [lindex $splitCoords 2];            set maxY [lindex $splitCoords 3];            puts "MACRO Creator_COORDS $minX $minY $minX $maxY $maxX $maxY $maxX $minY $minX $minY";            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+FACTORY_DEF {$(Creator_XML)} CreationFactory    FACTORY_NAME { Creator_XML_Creator }    CREATE_AT_END { no }    OUTPUT { FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<space>dimension=<quote>2<quote><gt><lt>null<solidus><gt><lt><solidus>geometry<gt>) }
+FACTORY_DEF {$(Creator_CLASSIC)} CreationFactory    FACTORY_NAME { Creator_CLASSIC_Creator }    $(Creator_2D3D) { $(Creator_COORDS) }    CREATE_AT_END { no }    OUTPUT { FEATURE_TYPE _____CREATED______ }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Creator_Cloner }    INPUT FEATURE_TYPE _____CREATED______        @Tcl2(Creator_CoordSysRemover)        @CoordSys()    NUMBER_OF_COPIES { 1 }    COPY_NUMBER_ATTRIBUTE { "_creation_instance" }    OUTPUT { FEATURE_TYPE Creator_CREATED        fme_feature_type Creator         }
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Creator CREATED Splitter"   INPUT FEATURE_TYPE Creator_CREATED   OUTPUT FEATURE_TYPE Creator_CREATED_0_GJAgmIF9G6c=   OUTPUT FEATURE_TYPE Creator_CREATED_1_Exx7idfjvCA=
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED_0_GJAgmIF9G6c= Brancher -1 4"   INPUT FEATURE_TYPE Creator_CREATED_0_GJAgmIF9G6c=   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED_1_Exx7idfjvCA= Brancher -1 49"   INPUT FEATURE_TYPE Creator_CREATED_1_Exx7idfjvCA=   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
+# -------------------------------------------------------------------------
+MACRO FeatureReader_OUTPUT_PORTS_ENCODED text_line
+MACRO FeatureReader_DIRECTIVES CREATE_FEATURE_TABLES_FROM_DATA,Yes,ENCODING,windows-1252,EXPOSE_ATTRS_GROUP,,READ_BOTTOM_UP,No,READ_WHOLE_FILE_AT_ONCE,NO,SKIP_FOOTER,0,SKIP_LINES,0,TEXTLINE_EXPOSE_FORMAT_ATTRS,
+# Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
+INCLUDE [if { ( {<Unused>} == {<Unused>} ) || ( {($INTERACT)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "<Unused>"};          }         ]
+# Consolidate the attribute merge options to what the factory expects
+DEFAULT_MACRO FeatureReader_COMBINE_ATTRS
+INCLUDE [       if { {RESULT_ONLY} == {MERGE} } {          puts "MACRO FeatureReader_COMBINE_ATTRS <Unused>";       } else {          puts "MACRO FeatureReader_COMBINE_ATTRS RESULT_ONLY";       };    ]
+INCLUDE [    puts {DEFAULT_MACRO FeatureReaderDataset_FeatureReader @EvaluateExpression(FDIV,STRING_ENCODED,$(FME_MF_DIR_ENCODED)TPWD<space>Camping<space>History<space>Extract.txt,FeatureReader)}; ]
+FACTORY_DEF {*} QueryFactory    FACTORY_NAME { FeatureReader }    INPUT  FEATURE_TYPE Creator_CREATED_0_GJAgmIF9G6c=    $(FCTQUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  { $(FeatureReader_COMBINE_ATTRS) }    IGNORE_NULLS        { <Unused> }    QUERYFCT_ATTRIBUTE_PREFIX { <Unused> }    COMBINE_GEOMETRY    { RESULT_ONLY }    ENABLE_CACHE        { NO }    QUERYFCT_TABLE_SEPARATOR { SPACE }    READER_TYPE         { TEXTLINE  }    READER_DATASET      { "$(FeatureReaderDataset_FeatureReader)" }    QUERYFCT_IDS        { "text_line" }    READER_DIRECTIVES   { METAFILE,TEXTLINE }    QUERYFCT_OUTPUT     { "BASED_ON_CONNECTIONS" }    CONTINUE_ON_READER_ERROR YES    QUERYFCT_RESULT_TAGS { $(FeatureReader_OUTPUT_PORTS_ENCODED) }    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     { $(FeatureReader_DIRECTIVES) }    TREAT_READER_PARAM_AMPERSANDS_AS_LITERALS YES    OUTPUT text_line FEATURE_TYPE FeatureReader_text_line
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { Tester }    INPUT  FEATURE_TYPE FeatureReader_text_line    TEST { "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>text_line_data<closeparen>,Tester)" = See<space>Detail ENCODED }    BOOLEAN_OPERATOR { OR }    COMPOSITE_TEST_EXPR { "<Unused>" }    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    OUTPUT { FAILED FEATURE_TYPE Tester_FAILED         }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME { AttributeManager }    INPUT  FEATURE_TYPE Tester_FAILED    MULTI_FEATURE_MODE { YES }    NUM_PRIOR_FEATURES { 0 }    NUM_SUBSEQUENT_FEATURES { 6 }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    MISSING_INPUT_ATTR_HANDLING RENAME_SET_VALUE REMOVE    ATTR_ACTION { "" "Reservation<space>Number" "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Value<openparen>text_line_data<closeparen> CONTAINS TX'<at>Value<openparen>text_line_data<closeparen>'FME_NUM_CONDITIONS2___" "SET_TO" }      ATTR_ACTION { "" "Status" "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Value<openparen>text_line_data<closeparen> CONTAINS TX'<at>Value<openparen>feature<openbracket>+1<closebracket>.text_line_data<closeparen>'FME_NUM_CONDITIONS2___" "SET_TO" }      ATTR_ACTION { "" "Campground" "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Value<openparen>text_line_data<closeparen> CONTAINS TX'<at>Value<openparen>feature<openbracket>+2<closebracket>.text_line_data<closeparen>'FME_NUM_CONDITIONS2___" "SET_TO" }      ATTR_ACTION { "" "Camp<space>Site" "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Value<openparen>text_line_data<closeparen> CONTAINS TX'<at>Value<openparen>feature<openbracket>+3<closebracket>.text_line_data<closeparen>'FME_NUM_CONDITIONS2___" "SET_TO" }      ATTR_ACTION { "" "Reservation<space>Details" "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Value<openparen>text_line_data<closeparen> CONTAINS TX'<at>Value<openparen>feature<openbracket>+4<closebracket>.text_line_data<closeparen>'FME_NUM_CONDITIONS2___" "SET_TO" }      ATTR_ACTION { "" "Total<space>Fee" "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Value<openparen>text_line_data<closeparen> CONTAINS TX'<at>Value<openparen>feature<openbracket>+5<closebracket>.text_line_data<closeparen>'FME_NUM_CONDITIONS2___" "SET_TO" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeManager_OUTPUT        }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { Tester_2 }    INPUT  FEATURE_TYPE AttributeManager_OUTPUT    TEST { Reservation<space>Number ATTRIBUTE_HAS_A_VALUE "" ENCODED }    BOOLEAN_OPERATOR { OR }    COMPOSITE_TEST_EXPR { "<Unused>" }    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    OUTPUT { PASSED FEATURE_TYPE Tester_2_PASSED         }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { TestFilter_INPUT }    INPUT  FEATURE_TYPE Tester_2_PASSED    OUTPUT { FEATURE_TYPE TestFilter_INPUTLINE }
+FACTORY_DEF {*} TestFactory FACTORY_NAME { TestFilter } INPUT FEATURE_TYPE TestFilter_INPUTLINE FEATURE_TABLE_SHIM_SUPPORT Yes PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT PASSED_TEST_GROUP_OUTPUT FIRST TEST_GROUP TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>Status<closeparen>,TestFilter) = Cancelled ENCODED } BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1" OUTPUT PASSED_0 FEATURE_TYPE TestFilter_Cancelled TEST_GROUP CASE_INSENSITIVE_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>Campground<closeparen>,TestFilter) CONTAINS Day<space>Passes ENCODED } BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1" OUTPUT PASSED_1 FEATURE_TYPE TestFilter_Day<space>Pass TEST_GROUP CASE_INSENSITIVE_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>Camp<space>Site<closeparen>,TestFilter) CONTAINS CABIN ENCODED } CASE_INSENSITIVE_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>Camp<space>Site<closeparen>,TestFilter) CONTAINS BUNK ENCODED } BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1 OR 2" OUTPUT PASSED_2 FEATURE_TYPE TestFilter_Cabin OUTPUT FAILED FEATURE_TYPE TestFilter_Overnight
+FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter Cancelled Transformer Output Nuker"   INPUT FEATURE_TYPE TestFilter_Cancelled
+FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter Day<space>Pass Transformer Output Nuker"   INPUT FEATURE_TYPE TestFilter_Day<space>Pass
+FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter Cabin Transformer Output Nuker"   INPUT FEATURE_TYPE TestFilter_Cabin
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} StringReplacerFactory    FACTORY_NAME { StringReplacer }    INPUT  FEATURE_TYPE TestFilter_Overnight    USE_REGEX { NO }    CASE_SENSITIVE { NO }    SOURCE_ATTRIBUTES { Campground }    FIND_TEXT { "Site" }    REPLACE_TEXT { "" }    REPLACE_NO_MATCH { "_FME_NO_OP_" }    OUTPUT { OUTPUT FEATURE_TYPE StringReplacer_OUTPUT          }
+# -------------------------------------------------------------------------
+# Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
+INCLUDE [ FME_CleanseFMEUUID {AttributeTrimmer_b2658bdc_5938_4d65_b6b0_3a4d0d1764194} ]
+Tcl2 proc $(FME_UUID_SAFE)_trimmer { trimChars} {    set attrs [split {Campground} {,}];    set trimChars [FME_DecodeText $trimChars];    foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set length [string length $attrVal];       if {$length > 0} {          if {[string length $trimChars] == 0} {             set result [string trim $attrVal];         } else {             set result [string trim $attrVal $trimChars];         };          if {[string length $result] == 0 && {Yes} == {No}} {              if { {trim} == {trimleft}} {                set lastPos [expr $length - 1];                set result [string range $attrVal $lastPos $lastPos ];              } elseif { {trim} == {trimright}} {                set result [string range $attrVal 0 0];              } else {                set midPos [expr $length / 2];                set result [string range $attrVal $midPos $midPos];              };          };          FME_SetAttribute $attr $result;       };    }; }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { AttributeTrimmer }    INPUT  FEATURE_TYPE StringReplacer_OUTPUT    OUTPUT { FEATURE_TYPE AttributeTrimmer_OUTPUT      @Tcl2("$(FME_UUID_SAFE)_trimmer {<tab>} ")       }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} StringReplacerFactory    FACTORY_NAME { StringReplacer_2 }    INPUT  FEATURE_TYPE AttributeTrimmer_OUTPUT    USE_REGEX { NO }    CASE_SENSITIVE { NO }    SOURCE_ATTRIBUTES { Camp<space>Site }    FIND_TEXT { "Site:" }    REPLACE_TEXT { "" }    REPLACE_NO_MATCH { "_FME_NO_OP_" }    OUTPUT { OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT          }
+# -------------------------------------------------------------------------
+# Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
+INCLUDE [ FME_CleanseFMEUUID {AttributeTrimmer_2_d70688d3_7b1b_4c42_a52f_71102c54bb224} ]
+Tcl2 proc $(FME_UUID_SAFE)_trimmer { trimChars} {    set attrs [split {"Camp Site"} {,}];    set trimChars [FME_DecodeText $trimChars];    foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set length [string length $attrVal];       if {$length > 0} {          if {[string length $trimChars] == 0} {             set result [string trim $attrVal];         } else {             set result [string trim $attrVal $trimChars];         };          if {[string length $result] == 0 && {Yes} == {No}} {              if { {trim} == {trimleft}} {                set lastPos [expr $length - 1];                set result [string range $attrVal $lastPos $lastPos ];              } elseif { {trim} == {trimright}} {                set result [string range $attrVal 0 0];              } else {                set midPos [expr $length / 2];                set result [string range $attrVal $midPos $midPos];              };          };          FME_SetAttribute $attr $result;       };    }; }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { AttributeTrimmer_2 }    INPUT  FEATURE_TYPE StringReplacer_2_OUTPUT    OUTPUT { FEATURE_TYPE AttributeTrimmer_2_OUTPUT      @Tcl2("$(FME_UUID_SAFE)_trimmer {<space>} ")       }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} StringReplacerFactory    FACTORY_NAME { StringReplacer_3 }    INPUT  FEATURE_TYPE AttributeTrimmer_2_OUTPUT    USE_REGEX { YES }    CASE_SENSITIVE { NO }    SOURCE_ATTRIBUTES { Reservation<space>Details }    FIND_TEXT { "<backslash><openparen><openparen><openbracket>^<closeparen><closebracket>+<closeparen><backslash><closeparen>" }    REPLACE_TEXT { "" }    REPLACE_NO_MATCH { "_FME_NO_OP_" }    OUTPUT { OUTPUT FEATURE_TYPE StringReplacer_3_OUTPUT          }
+# -------------------------------------------------------------------------
+# Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
+INCLUDE [ FME_CleanseFMEUUID {AttributeSplitter_7a9ad478_02b5_4385_86f7_c5e2832db3124} ]
+Tcl2 proc $(FME_UUID_SAFE)_doSplit {} {    set splitDelimiter [FME_DecodeTextOrAttr {<space>-<space>}];    if { [regexp {^([1-9][0-9]*s)+$} $splitDelimiter] }    {       set splitWidths [split [regsub -all {s$} $splitDelimiter {}] s];       set source [FME_GetAttribute [FME_DecodeText {Reservation<space>Details}]];       set attrNum 0;       set listName [FME_DecodeText {_dateslist}];       set attrPos 0;       set keepEmptyParts [string equal {No} {No}];       foreach width $splitWidths       {          set endPos [expr $attrPos + $width - 1];          set bit [string range $source $attrPos $endPos];          set part [string trim $bit];          if { $keepEmptyParts || $part != \"\" } {             FME_SetAttribute "$listName{$attrNum}" $part;             incr attrNum;          };          incr attrPos $width;       };    }    else    {       set delimLength [string length $splitDelimiter];       set source [FME_GetAttribute [FME_DecodeText {Reservation<space>Details}]];       set keepEmptyParts [string equal {No} {No}];       set bits {};       set startIndex 0;       set nextIndex [string first $splitDelimiter $source $startIndex];       while {$nextIndex >= 0} {          lappend bits [string range $source $startIndex [expr $nextIndex-1]];          set startIndex [expr $nextIndex + $delimLength];          set nextIndex [string first $splitDelimiter $source $startIndex];       };       lappend bits [string range $source $startIndex end];       set listName [FME_DecodeText {_dateslist}];       set attrNum 0;       foreach bit $bits       {          set trimmedPart [string trim $bit];          if { $keepEmptyParts || $trimmedPart != \"\" } {             FME_SetAttribute "$listName{$attrNum}" $trimmedPart;             incr attrNum;          };       }    } }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { AttributeSplitter }    INPUT  FEATURE_TYPE StringReplacer_3_OUTPUT    OUTPUT { FEATURE_TYPE AttributeSplitter_OUTPUT         @Tcl2($(FME_UUID_SAFE)_doSplit)          }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME { AttributeManager_2 }    INPUT  FEATURE_TYPE AttributeSplitter_OUTPUT    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    MISSING_INPUT_ATTR_HANDLING RENAME_SET_VALUE REMOVE    ATTR_ACTION { "" "fromdate" "<at>Value<openparen>_dateslist<opencurly>0<closecurly><closeparen>" "SET_TO" }      ATTR_ACTION { "" "todate" "<at>Value<openparen>_dateslist<opencurly>1<closecurly><closeparen>" "SET_TO" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeManager_2_OUTPUT        }
+# -------------------------------------------------------------------------
+# Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
+INCLUDE [ FME_CleanseFMEUUID {DateTimeConverter_9771443d_3719_4182_a73a_3bab08a2f7154} ]
+DEFAULT_MACRO DateTimeConverter_REPAIR DEFAULT_MACRO DateTimeConverter_IN_FORMAT DEFAULT_MACRO DateTimeConverter_OUT_FORMAT
+INCLUDE [    set repairInput {};    if {{YES} eq {YES}} {       set repairInput "<comma>repair";    };    set inFormat {FME|ISO};    if { {*<space>%b<space>%d<space>%Y} ne {} } {       set inFormat {*<space>%b<space>%d<space>%Y};       if { [string first "<quote>" $inFormat] != -1 } {          set inFormat [string map {"<quote>" "<backslash><quote>"} $inFormat];       };    };    set outFormat {FME};    if { [string first "<quote>" $outFormat] != -1 } {       set outFormat [string map {"<quote>" "<backslash><quote>"} $outFormat];    };    puts "MACRO DateTimeConverter_REPAIR $repairInput";    puts "MACRO DateTimeConverter_IN_FORMAT $inFormat";    puts "MACRO DateTimeConverter_OUT_FORMAT $outFormat"; ]
+Tcl2 proc $(FME_UUID_SAFE)_DateTimeConverter {attrList} {    set invalidInputFound 0;    foreach attr $attrList {       set decodedAttr [FME_DecodeText $attr];       set oldAttrVal [FME_GetAttribute $decodedAttr];       set oldAttrNull [FME_IsAttributeNull $decodedAttr];       set oldAttrExists [FME_AttributeExists $decodedAttr];       set funcAttr $attr;       if { [string first "<quote>" $attr] != -1 }       {          set funcAttr [string map {"<quote>" "<backslash><quote>"} $attr];          append funcAttr "<quote>";          set funcAttr "<quote>$funcAttr";       };       set expression <at>DateTimeFormat<openparen><at>DateTimeParse<openparen><at>Value<openparen>$funcAttr<closeparen><comma><quote>$(DateTimeConverter_IN_FORMAT)<quote>$(DateTimeConverter_REPAIR)<closeparen><comma><quote>$(DateTimeConverter_OUT_FORMAT)<quote><closeparen>;       FME_Execute EvaluateExpression ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV $attr $expression DateTimeConverter;       set newAttrVal [FME_GetAttribute $decodedAttr];       if {[string length $newAttrVal] == 0 && !$invalidInputFound} {          if {{YES} eq {NO} || [string length $oldAttrVal] > 0} {             FME_SetAttribute fme_rejection_code "INVALID_INPUT";             set invalidInputFound 1;          } elseif {!$oldAttrExists} {             FME_UnsetAttributes $decodedAttr;          } elseif {!$oldAttrNull} {             FME_SetAttribute $decodedAttr {};          };       }    }; }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { DateTimeConverter_1 }    INPUT  FEATURE_TYPE AttributeManager_2_OUTPUT    OUTPUT { FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT, ___fme_rejection_code___,fme_rejection_code)       @Tcl2("$(FME_UUID_SAFE)_DateTimeConverter {todate fromdate}") }
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { DateTimeConverter_Rejector }    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT    OUTPUT { FAILED FEATURE_TYPE DateTimeConverter_OUTPUT       @RenameAttributes(FME_STRICT, fme_rejection_code,___fme_rejection_code___)        }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} StringReplacerFactory    FACTORY_NAME { StringReplacer_4 }    INPUT  FEATURE_TYPE DateTimeConverter_OUTPUT    USE_REGEX { NO }    CASE_SENSITIVE { NO }    SOURCE_ATTRIBUTES { Campground }    FIND_TEXT { "state<space>park" }    REPLACE_TEXT { "" }    REPLACE_NO_MATCH { "_FME_NO_OP_" }    OUTPUT { OUTPUT FEATURE_TYPE StringReplacer_4_OUTPUT          }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} StringReplacerFactory    FACTORY_NAME { StringReplacer_7 }    INPUT  FEATURE_TYPE StringReplacer_4_OUTPUT    USE_REGEX { NO }    CASE_SENSITIVE { NO }    SOURCE_ATTRIBUTES { Campground }    FIND_TEXT { "<space><space>" }    REPLACE_TEXT { "<space><space>-<space>" }    REPLACE_NO_MATCH { "_FME_NO_OP_" }    OUTPUT { OUTPUT FEATURE_TYPE StringReplacer_7_OUTPUT          }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} StringReplacerFactory    FACTORY_NAME { StringReplacer_8 }    INPUT  FEATURE_TYPE StringReplacer_7_OUTPUT    USE_REGEX { NO }    CASE_SENSITIVE { NO }    SOURCE_ATTRIBUTES { Total<space>Fee }    FIND_TEXT { "<dollar>" }    REPLACE_TEXT { "" }    REPLACE_NO_MATCH { "_FME_NO_OP_" }    OUTPUT { OUTPUT FEATURE_TYPE StringReplacer_8_OUTPUT          }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME { AttributeManager_3 }    INPUT  FEATURE_TYPE StringReplacer_8_OUTPUT    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    MISSING_INPUT_ATTR_HANDLING RENAME_SET_VALUE REMOVE    OUTPUT { OUTPUT FEATURE_TYPE AttributeManager_3_OUTPUT        }
+# -------------------------------------------------------------------------
+MACRO FeatureReader_2_OUTPUT_PORTS_ENCODED Park_Boundary Park_Centroid
+MACRO FeatureReader_2_DIRECTIVES AGOL_ADV_PARM_GROUP,,ARCGISONLINEFEATURES_EXPOSE_FORMAT_ATTRS,,CREATE_FEATURE_TABLES_FROM_DATA,Yes,EXPOSE_ATTRS_GROUP,,FEATURES_PER_REQUEST,1000,FEATURESERVICE,mikedoesgis<solidus>Camping<solidus>camping<openparen>82b057feca404205b2b993f5e6aa7b40<closeparen>,FORMAT_GUID,YES,NC,Mike<lt>space<gt>Does<lt>space<gt>GIS,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,RESOLVE_DOMAINS,Yes,TABLELIST,,USE_SEARCH_ENVELOPE,NO
+# Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
+INCLUDE [if { ( {NONE} == {<Unused>} ) || ( {($INTERACT)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "NONE"};          }         ]
+# Consolidate the attribute merge options to what the factory expects
+DEFAULT_MACRO FeatureReader_2_COMBINE_ATTRS
+INCLUDE [       if { {RESULT_ONLY} == {MERGE} } {          puts "MACRO FeatureReader_2_COMBINE_ATTRS <Unused>";       } else {          puts "MACRO FeatureReader_2_COMBINE_ATTRS RESULT_ONLY";       };    ]
+INCLUDE [    puts {DEFAULT_MACRO FeatureReaderDataset_FeatureReader_2 <lt>Unused<gt>}; ]
+FACTORY_DEF {*} QueryFactory    FACTORY_NAME { FeatureReader_2 }    INPUT  FEATURE_TYPE Creator_CREATED_1_Exx7idfjvCA=    $(FCTQUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  { $(FeatureReader_2_COMBINE_ATTRS) }    IGNORE_NULLS        { <Unused> }    QUERYFCT_ATTRIBUTE_PREFIX { <Unused> }    COMBINE_GEOMETRY    { RESULT_ONLY }    ENABLE_CACHE        { NO }    QUERYFCT_TABLE_SEPARATOR { SPACE }    READER_TYPE         { ARCGISONLINEFEATURES  }    READER_DATASET      { "$(FeatureReaderDataset_FeatureReader_2)" }    QUERYFCT_IDS        { "Park_Boundary<space>Park_Centroid" }    READER_DIRECTIVES   { METAFILE,ARCGISONLINEFEATURES }    QUERYFCT_OUTPUT     { "BASED_ON_CONNECTIONS" }    CONTINUE_ON_READER_ERROR YES    ORDER_RESULTS { "No" }    QUERYFCT_RESULT_TAGS { $(FeatureReader_2_OUTPUT_PORTS_ENCODED) }    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     { $(FeatureReader_2_DIRECTIVES) }    TREAT_READER_PARAM_AMPERSANDS_AS_LITERALS YES    OUTPUT Park_Centroid FEATURE_TYPE FeatureReader_2_Park_Centroid
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} StringReplacerFactory    FACTORY_NAME { StringReplacer_5 }    INPUT  FEATURE_TYPE FeatureReader_2_Park_Centroid    USE_REGEX { NO }    CASE_SENSITIVE { NO }    SOURCE_ATTRIBUTES { Name }    FIND_TEXT { "SP" }    REPLACE_TEXT { "" }    REPLACE_NO_MATCH { "_FME_NO_OP_" }    OUTPUT { OUTPUT FEATURE_TYPE StringReplacer_5_OUTPUT          }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} StringReplacerFactory    FACTORY_NAME { StringReplacer_6 }    INPUT  FEATURE_TYPE StringReplacer_5_OUTPUT    USE_REGEX { NO }    CASE_SENSITIVE { NO }    SOURCE_ATTRIBUTES { Name }    FIND_TEXT { "SNA" }    REPLACE_TEXT { "" }    REPLACE_NO_MATCH { "_FME_NO_OP_" }    OUTPUT { OUTPUT FEATURE_TYPE StringReplacer_6_OUTPUT          }
+# -------------------------------------------------------------------------
+INCLUDE [if { {GEOM_AND_ATTRS} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_REFERENCE_INFO ATTRIBUTES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
+FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME { FeatureMerger }    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    INPUT REFERENCER FEATURE_TYPE AttributeManager_3_OUTPUT    INPUT REFERENCEE FEATURE_TYPE StringReplacer_6_OUTPUT    REFERENCE_INFO { $(FeatureMerger_REFERENCE_INFO) }    REFERENCE_TABLE { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>Campground<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>Name<closeparen>,FeatureMerger) AUTO }    ATTR_ACCUM_MODE { "HANDLE_CONFLICT" }    ATTR_CONFLICT_RES { "REQUESTOR_IF_CONFLICT" }    IGNORE_NULLS { "No" }    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 { No }    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE { <Unused> }    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES { NO }    REFERENCEES_FIRST { No }    REJECT_INVALID_GEOM YES    CLEANING_TOLERANCE { <Unused> }    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    COMPARE_WHITESPACE Yes    OUTPUT { COMPLETE FEATURE_TYPE FeatureMerger_MERGED         }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { BulkAttributeRenamer }    INPUT  FEATURE_TYPE FeatureMerger_MERGED    OUTPUT { FEATURE_TYPE BulkAttributeRenamer_OUTPUT        @RenameAttributes(PATTERN_REPLACE, CASECHANGE, <Unused>, "<Unused>", "<Unused>", "lower", "<Unused>", "-_", "RENAME", "NONPROTECTEDFME")         }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME { AttributeManager_4 }    INPUT  FEATURE_TYPE BulkAttributeRenamer_OUTPUT    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 4    DEF_VAL_COLUMN 2    NUM_OF_COLUMNS 5    MISSING_INPUT_ATTR_HANDLING RENAME_SET_VALUE REMOVE    ATTR_ACTION { "text_line_data" "text_line_data" "" "buffer" "REMOVE" }      ATTR_ACTION { "fme_geometry<opencurly>0<closecurly>" "fme_geometry<opencurly>0<closecurly>" "" "fme_no_geom" "REMOVE" }      ATTR_ACTION { "_dateslist<opencurly><closecurly>" "_dateslist<opencurly><closecurly>" "" "varchar<openparen>200<closeparen>" "REMOVE" }      ATTR_ACTION { "fromdate" "fromdate" "" "varchar<openparen>200<closeparen>" "NO_OP" }      ATTR_ACTION { "todate" "todate" "" "varchar<openparen>200<closeparen>" "NO_OP" }      ATTR_ACTION { "fme_geometry<opencurly><closecurly>" "fme_geometry<opencurly><closecurly>" "" "varchar<openparen>200<closeparen>" "REMOVE" }      ATTR_ACTION { "reservation<space>number" "reservation_number" "" "varchar<openparen>200<closeparen>" "RENAME_SET_VALUE" }      ATTR_ACTION { "status" "status" "" "varchar<openparen>200<closeparen>" "REMOVE" }      ATTR_ACTION { "campground" "campground" "" "varchar<openparen>200<closeparen>" "NO_OP" }      ATTR_ACTION { "camp<space>site" "camp_site" "" "varchar<openparen>200<closeparen>" "RENAME_SET_VALUE" }      ATTR_ACTION { "reservation<space>details" "reservation_details" "" "varchar<openparen>200<closeparen>" "RENAME_SET_VALUE" }      ATTR_ACTION { "total<space>fee" "total_fee" "" "varchar<openparen>200<closeparen>" "RENAME_SET_VALUE" }      ATTR_ACTION { "name" "name" "" "varchar<openparen>2048<closeparen>" "REMOVE" }      ATTR_ACTION { "objectid" "objectid" "" "int32" "REMOVE" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeManager_4_OUTPUT        }
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureWriter (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeManager_4_OUTPUT
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+

@@ -1,3 +1,68 @@
+2-14379126 TX
+Confirmed
+See Detail
+Site	Lake Whitney State Park
+Site: 110
+Sat Dec 30 2023 - Sun Dec 31 2023 (1 night)
+$20.00
+:$0.00
+2-14333573 TX
+Cancelled
+See Detail
+Site	Daingerfield State Park
+Site: 003
+Fri Dec 29 2023 - Sun Dec 31 2023 (2 nights)
+$20.00
+:$0.00
+2-14211561 TX
+Cancelled
+See Detail
+Site	Lake Tawakoni State Park
+Site: 007
+Fri Dec 29 2023 - Sun Dec 31 2023 (2 nights)
+$30.00
+:$0.00
+2-14373411 TX
+
+See Detail
+Site	Purtis Creek State Park
+Site: 043
+Fri Dec 29 2023 - Sun Dec 31 2023 (2 nights)
+$40.00
+:$0.00
+2-14310682 TX
+Cancelled
+See Detail
+Site	Daingerfield State Park
+Site: 018
+Tue Dec 26 2023 - Fri Dec 29 2023 (3 nights)
+$30.00
+:$0.00
+2-14159109 TX
+Confirmed
+See Detail
+Site	Lake Tawakoni State Park
+Site: 008
+Tue Dec 26 2023 - Sun Dec 31 2023 (5 nights)
+$90.00
+:$0.00
+2-14211575 TX
+
+See Detail
+Site	Ray Roberts Lake State Park Isle Du Bois
+Site: 112
+Fri Dec 22 2023 - Wed Dec 27 2023 (5 nights)
+$112.50
+:$0.00
+2-14216674 TX
+Confirmed
+See Detail
+Site	Mother Neff State Park
+Site: 013
+Thu Dec 21 2023 - Fri Dec 22 2023 (1 night)
+$25.00
+:$0.00
+
 2-10720874 TX
 Confirmed
 See Detail
@@ -14,6 +79,7 @@ Site: 041
 Fri Jan 20 2023 - Mon Jan 23 2023 (3 nights)
 $60.00
 :$0.00
+
 2-10482395 TX
 Confirmed
 See Detail
